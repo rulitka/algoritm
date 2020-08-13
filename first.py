@@ -1,7 +1,3 @@
-import random
-import math
-
-
 class Node:
 
     def __init__(self, v):
@@ -139,25 +135,25 @@ l.add(20)
 
 l.print_all_nodes( )
 
-print ('Связанный список после удаления узла со значением 20:')
+#print ('Связанный список после удаления узла со значением 20:')
 l.delete_Node(20)
 l.print_all_nodes( ) 
 
 
-print ('Связанный список - длина:')
+#print ('Связанный список - длина:')
 length_ll = l.len()
-print(length_ll) 
+#print(length_ll) 
 
 
-print ('Связанный список после вставки узла со значением 100:')
+#print ('Связанный список после вставки узла со значением 100:')
 l.insert(30, 100)
 l.print_all_nodes( )
 
 
-print ('Найдены все узлы со значением 60:')
+#print ('Найдены все узлы со значением 60:')
 find_value = l.find_all(60)
 print(find_value)
 
-print ('Связанный список очищен:')
+#print ('Связанный список очищен:')
 l.clean()
 l.print_all_nodes( )
