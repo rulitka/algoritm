@@ -53,7 +53,7 @@ class LinkedList:
         return element_list
 
 
-    def delete_Node(self, val):
+    def delete_Node(self, val, all=False):
         if (self.head == None):
             return
         head_node = self.head
